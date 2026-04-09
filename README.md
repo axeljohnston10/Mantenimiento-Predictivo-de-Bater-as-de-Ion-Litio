@@ -23,3 +23,14 @@ A diferencia de un análisis de datos convencional, este proyecto considera:
 ## 📊 Resultados Clave
 - **Variable más influyente:** El ciclo de vida y la capacidad de descarga demostraron ser los predictores más fuertes del SOH.
 - **Precisión del Modelo:** Se logró una predicción del RUL con un error promedio mínimo, permitiendo anticipar fallos en las celdas. VEl modelo de Random Forest logró explicar el 90% de la varianza en la vida útil restante de las baterías. Esto demuestra que las variables físicas seleccionadas (voltaje, corriente y temperatura) son predictores robustos para el mantenimiento predictivo.
+
+
+## 📊 Visualizaciones del Proyecto
+
+### Matriz de Correlación
+Identificación de la relación entre variables físicas (Voltaje, Corriente, Temperatura) y la degradación (SOH).
+![Matriz de Correlación](matriz_correlacion.png)
+
+### Precisión del Modelo (Real vs. Predicho)
+Comparativa entre la vida útil real de las baterías y las predicciones generadas por el modelo de Random Forest ($R^2 = 0.9002$).
+![Predicciones vs Real](predicciones_vs_real.png)
