@@ -12,7 +12,7 @@ Desarrollar un modelo predictivo capaz de estimar cuántos ciclos de vida le que
 - **Machine Learning:** `Scikit-Learn` (Random Forest Regressor).
 - **Automatización:** API de Kaggle (`kagglehub`).
 
-## 🔬 Análisis de Ingeniería Física
+## 🔬 Análisis
 A diferencia de un análisis de datos convencional, este proyecto considera:
 1. **Correlación Física:** Identificación de cómo la temperatura de descarga (`disT`) y el voltaje afectan la salud de la batería.
 2. **Degradación No Lineal:** Uso de modelos de ensamble (Random Forest) para capturar la pérdida de capacidad que no sigue un patrón lineal simple.
@@ -22,4 +22,4 @@ A diferencia de un análisis de datos convencional, este proyecto considera:
 
 ## 📊 Resultados Clave
 - **Variable más influyente:** El ciclo de vida y la capacidad de descarga demostraron ser los predictores más fuertes del SOH.
-- **Precisión del Modelo:** Se logró una predicción del RUL con un error promedio mínimo, permitiendo anticipar fallos en las celdas.
+- **Precisión del Modelo:** Se logró una predicción del RUL con un error promedio mínimo, permitiendo anticipar fallos en las celdas. VEl modelo de Random Forest logró explicar el 90% de la varianza en la vida útil restante de las baterías. Esto demuestra que las variables físicas seleccionadas (voltaje, corriente y temperatura) son predictores robustos para el mantenimiento predictivo.
