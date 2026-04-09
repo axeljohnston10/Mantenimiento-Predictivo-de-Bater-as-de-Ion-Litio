@@ -16,7 +16,7 @@ Desarrollar un modelo predictivo capaz de estimar cuántos ciclos de vida le que
 A diferencia de un análisis de datos convencional, este proyecto considera:
 1. **Correlación Física:** Identificación de cómo la temperatura de descarga (`disT`) y el voltaje afectan la salud de la batería.
 2. **Degradación No Lineal:** Uso de modelos de ensamble (Random Forest) para capturar la pérdida de capacidad que no sigue un patrón lineal simple.
-3. **Validación:** El modelo fue validado comparando los valores reales contra las predicciones, obteniendo una alta precisión (R² Score).
+3. **Validación:** El modelo fue validado comparando los valores reales contra las predicciones, obteniendo una alta precisión (R² Score) 90.02%.
 
 
 
